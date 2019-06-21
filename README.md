@@ -1,6 +1,6 @@
 # wifi-logger
 
-##Setup:
+## Setup:
 
 * Install python
 

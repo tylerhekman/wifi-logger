@@ -2,7 +2,7 @@ from datetime import datetime
 
 data_list = []
 
-log = open("internet.txt", "r")
+log = open("internet.log", "r")
 previous = None
 previous_status = ''
 for log_line in log:

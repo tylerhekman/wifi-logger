@@ -8,6 +8,6 @@ Log wifi availability every minute and generate dataset for use with Visavail.js
 
 * Requires Python and Git installations
 
-* cd ~ && git@github.com:tylerhekman/wifi-logger.git
+* cd ~ && git clone git@github.com:tylerhekman/wifi-logger.git
 
 * (crontab -l 2>/dev/null; echo "* * * * * ~/wifi-logger/internet.sh $(which wget)") | crontab -

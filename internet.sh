@@ -1,6 +1,6 @@
 #!/bin/bash
 
-/usr/local/bin/wget -q --spider --timeout=5 http://google.com
+$1 -q --spider --timeout=5 http://google.com
 
 if [ $? -eq 0 ]; then
   echo "$(date) - Online" >> ~/wifi-logger/internet.log
